@@ -4,7 +4,7 @@ body {
 
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -45,4 +45,35 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 6px 10px 20px grey;
+    padding: 20px;
+}
+
+#full-web-dev {
+    border-left: 6px solid tomato;
+}
+
+#baby-web-dev {
+    border-left: 6px solid teal;
+}
+
+footer h4 {
+    text-align: center;
 }
